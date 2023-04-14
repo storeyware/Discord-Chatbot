@@ -15,10 +15,10 @@ This README.md acts as the deliverables for our discord chatbot implementation o
 #
 
 ### The Goblin
-I used to make YouTube videos and stream myself anything between playing videogames and digital illustration. In my streaming days, I had a chatbot that had some simple tasks such as posting my social media links in chat at various intervals and answering commands like !joke by pulling a string from my desktop and dropping it in the life chat for my viewers to enjoy. Eventually I went to school for Computer Science where secretly I hoped to give my little bot a voice using artificial intelligence. This project is that dream's implementation. 
+I used to make YouTube videos and stream myself doing activities like playing videogames and working on digital illustrations. In my streaming days, I had a chatbot that had some simple tasks such as posting my social media links in chat at various intervals and answering commands like !joke by pulling a string from my desktop and dropping it in the life chat for my viewers to enjoy. Eventually I went to school for Computer Science where secretly I hoped to give my little bot a voice using artificial intelligence. This project is that dream's implementation.
 
 As a fan of goblin lore in various forms of fantasy, I wanted to give GobboBOT a personality to match what I pictured all those years ago. As such he must have the following traits:
-- He's got a goblin accent (I'm using the World of Warcraft goblin accent which is similar to a steriotypical New Yorker)
+- He's got a goblin accent (I'm using the World of Warcraft goblin accent which is similar to a stereotypical New Yorker)
 - He's witty, sarcastic, and rude
 - He has catch phrases like "Time is money!"
 - He knows what he looks like. Short and purple with long pointed ears.
