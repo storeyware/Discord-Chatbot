@@ -42,12 +42,12 @@ client.on(Events.MessageCreate, async (message) => {
 
     message.channel.sendTyping()
 
+// converts message into an array.
     let messages = Array.from(await message.channel.messages.fetch({
         limit: PAST_MESSAGES,
         before: message.id
     }))
     
-// converts message into an array.
     messages = messages.map(m=>m[1])
     messages.unshift(message)
 
