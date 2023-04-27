@@ -32,8 +32,17 @@ As a fan of goblin lore in various forms of fantasy, I wanted to give GobboBOT a
 This text file is used to control any constants created for use in the application. BOT_Token is the unique identifier for the Discord bot, and OPENAI_KEY is a key tied to your account that’s used to connect to OpenAI via an API.
 
 #### index.js File
-**Lines 1 - 27: Connecting to OpenAI and Discord**
+**Lines 1 - 27: Connecting to OpenAI and Discord**  
 It begins by calling on the OpenAI and Discord libraries. Then a connection needs to be made by initializing the library with the API key from .env and creating a new instance of the OpenAI API. Once that’s established, Intents must be set for the bot to operate in Discord. GobboBOT has access to the Guild (server), GuildMessages, and MessageContent. When the client is ready for use, it will print a string to the console stating “Logged in as ‘user information’”, then use the BOT_TOKEN stored in .env to log in.
+
+**Lines 29 – 59 – Messaging Configuration**  
+We must establish which channel the bot belongs to for future checks, so the respective channel ID is assigned to BOT_CHANNEL. GobboBOT also need a reference of how many messages to keep in memory, which is set to five in our environment. As messages are sent, the client listens to them and performs two verification checks: 1) was the author the bot? and 2) was the message sent in the channel hosting the bot? If GobboBOT authors the message, it shouldn’t respond to itself, creating an infinite loop. Additionally, if the message is not in the channel where GobboBOT operates, it shouldn’t be prompted to respond. The action message.channel.sendTyping() causes typing bubbles to appear as the bot responds. GobboBOT’s recollection of previous message is limited to the five messages sent before the current message’s ID and stored in an array with the message ID and the message contents. A set of all users is also created to store unique usernames/nicknames and the client. Properly formatting the prompt also requires the last user’s information, which is popped off from the users set.
+
+**Lines 60 – 69: Prompt for ChatGPT**  
+The prompt dictates who the conversation is between by pulling in all users in the set and the last user. Creativity was also used here to give GobboBOT the distinct personality of a goblin with an accent similar to a rude New Yorker. Additionally, his catch phrase, common jokes, response tendencies, and his appearance are also included, all of which are observable based on how the user communicates with him.
+
+**Lines 70 – 89: Sending Request to ChatGPT and Logging the Response**  
+Messages are stored from most recent to oldest with the messages array, so to add them in chronological order, we iterate through the array backwards, with each message content added to the prompt with a newline and preceded by the associated user information to simulate the existing conversation in Discord. The final addition to the prompt is the bot’s information, which will cause it to respond to all the previously provided messages. To view the resulting prompt, this can be printed to the console. Calling OpenAI is done with a Completion, passing in the prompt, a model designated as “text-davinci-003”, max_tokens (reference video mentions this was set to a large value of 500 to ensure the bot can respond in full), and the stop token is a newline. Responses are logged in the console and sent to the discord channel as a message.
 
 *-Katherine Johnson*
 
