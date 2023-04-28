@@ -103,5 +103,6 @@ GobboBOT’s responses tend to have comedic undertones that exemplify its witty,
 
 ### Conclusion
 <!--A conclusion that goes over the basics from each section-->
+Overall. GobboBot is an interesting and at times amusing Discord Bot. It took a bit of time to develop and create using the YouTube video linked. There were various files of code to be implemented and written such as the .env and index.js files. In addition, we had to connect the bot to OpenAI and Discord which was a bit of a process getting all of the tokens and making sure they were all connected together. Within our code, we had to create prompts that allow GobboBot to interact with users as he does such as saying his key phrase "Time is money". It can be seen within the testing that GobboBot does tend to say the phrase "Time is money" a bit too often but that can always be fixed at a later time. In addition, he is able to respond in various scenarios as shown in testing. He can respond to two users even if they message him simultaneously. He also always keeps his sense of humor which can be seen within the responses he gave to a user in the testing section. To conclude, GobboBot is an intriguing type of Discord Bot that tends to respond in comedic ways and he works very well based on the tests we have put him through.
 
 *-Miranda Morris*
