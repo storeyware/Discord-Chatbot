@@ -74,7 +74,7 @@ Emojis and single punctuation marks were sent to GobboBOT to ensure it could acc
 Spelling and grammatical errors were intentionally included in some requests to test GobboBOT’s ability to overcome these errors. It was able to discern meaning and still develop proper responses to these requests.
 
 **Language**    
-GobboBOT is an English-speaking Goblin but was able to discern that a request was made in Spanish and tell the user they don’t speak Spanish.
+GobboBOT is an English-speaking Goblin but was able to discern that a request was made in Spanish and tell the user it doesn't speak or understand Spanish.
 
 **Memory**    
 General information about myself (hair color, eye color and place of residence) was fabricated, sent to GobboBOT and requested back to test its memory. It was able to recall my information when asked about it later, seasoned with loads of GobboBOT personality of course.
