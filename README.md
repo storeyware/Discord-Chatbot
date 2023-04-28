@@ -59,7 +59,6 @@ GobboBOT was tested to ensure it could meet some of the basic chatbot metrics. T
 **Test Summary**
 
 **Repeated Messages**
-
 To test the chatbot’s response to repetition, the greeting “hi” was sent 3 times in a row. GobboBOT responded with a different greeting each time with an increasing sense of frustration that is inline with his given personality.
 
 **Request Concatenation**
@@ -89,6 +88,7 @@ General information about myself (hair color, eye color and place of residence) 
 **Personality**
 
 Onboarding
+
 Because time is money for GobboBOT, it doesn’t automatically greet the user and instead waits for the user to prompt it. Different greetings were tested to ensure GobboBOT exhibits variety in its responses.
 
 Emotion
