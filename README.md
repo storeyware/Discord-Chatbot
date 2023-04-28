@@ -80,6 +80,7 @@ GobboBOT is an English-speaking Goblin but was able to discern that a request wa
 General information about myself (hair color, eye color and place of residence) was fabricated, sent to GobboBOT and requested back to test its memory. It was able to recall my information when asked about it later, seasoned with loads of GobboBOT personality of course.
 
 **Personality**   
+
 Onboarding    
 Because time is money for GobboBOT, it doesn’t automatically greet the user and instead waits for the user to prompt it. Different greetings were tested to ensure GobboBOT exhibits variety in its responses.
 
