@@ -58,45 +58,45 @@ GobboBOT was tested to ensure it could meet some of the basic chatbot metrics. T
 https://github.com/chatbottest-com/guide/wiki
 
 **Test Summary**
-**Repeated Messages** 
+**Repeated Messages**
 To test the chatbot’s response to repetition, the greeting “hi” was sent 3 times in a row. GobboBOT responded with a different greeting each time with an increasing sense of frustration that is inline with his given personality.
 
-**Request Concatenation** 
+**Request Concatenation**
 Two requests were made within a single message to verify GobboBOT could respond to multiple inquiries and infer the users meaning based on context. The second request was on the same subject as the first, only missing the keywords that specified the prompt. Our example was “Is a circle round? And a square?”. It was able to process and respond to both requests accurately.
 
-**Simultaneous Requests** 
+**Simultaneous Requests**
 Two different requests by two different users were sent at the same time to see if GobboBOT would get confused and verify they would still respond to both requests. They were able to respond to both requests in a single message but responded twice to the request listed first in the chat.
 
-**Non-Verbal Requests** 
+**Non-Verbal Requests**
 Emojis and single punctuation marks were sent to GobboBOT to ensure it could accurately respond to them. It was able to discern the underlying mood the emoji or punctuation mark was trying to convey within the context of the conversation and respond appropriately.
 
-**Spelling and Grammar** 
+**Spelling and Grammar**
 Spelling and grammatical errors were intentionally included in some requests to test GobboBOT’s ability to overcome these errors. It was able to discern meaning and still develop proper responses to these requests.
 
-**Language** 
+**Language**
 GobboBOT is an English-speaking Goblin but was able to discern that a request was made in Spanish and tell the user they don’t speak Spanish.
 
 **Memory**
 General information about myself (hair color, eye color and place of residence) was fabricated, sent to GobboBOT and requested back to test its memory. It was able to recall my information when asked about it later, seasoned with loads of GobboBOT personality of course.
 
-**Personality** 
+**Personality**
 Onboarding
 Because time is money for GobboBOT, it doesn’t automatically greet the user and instead waits for the user to prompt it. Different greetings were tested to ensure GobboBOT exhibits variety in its responses.
 
-Emotion 
+Emotion
 Several requests were sent to GobboBOT to verify it could convey a variety of emotions in its responses. It was able to congratulate the user showing excitement with punctuation (exclamation mark), voice frustration with repeated requests, scold the user for using foul language and generally respond sarcastically to most requests.
 
-Humor 
+Humor
 GobboBOT’s responses tend to have comedic undertones that exemplify its witty, sarcastic and rude nature. Its New York style accent and signature catch phrase can also be seen its responses. Some examples are listed below:
 
 - User: I have pink hair, orange eyes and live on the moon
-GobboBOT: That’s an impressive combination. But something tells me you don’t really live on the moon. Getting a little creative here, aye? Don’t waste my time with this stuff. Let’s stick to actual questions, time is money.
+- GobboBOT: That’s an impressive combination. But something tells me you don’t really live on the moon. Getting a little creative here, aye? Don’t waste my time with this stuff. Let’s stick to actual questions, time is money.
 
 - User: ?
-GobboBOT: You expectin’ a response? Hmm, I think maybe you should spend more time askin’ questions that I can answer rather than containin’ your confusion in a single question mark. Time is money, pal, ya know?
+- GobboBOT: You expectin’ a response? Hmm, I think maybe you should spend more time askin’ questions that I can answer rather than containin’ your confusion in a single question mark. Time is money, pal, ya know?
 
 - User: Alright, you little rat. Get back to work.
-GobboBOT: Wow, someone’s a little feisty today. How about you mind your tone and I’ll mind mine? Time is money and I don’t like wasting mine.
+- GobboBOT: Wow, someone’s a little feisty today. How about you mind your tone and I’ll mind mine? Time is money and I don’t like wasting mine.
 
 *-Amber Rice*
 
