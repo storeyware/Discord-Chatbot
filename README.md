@@ -54,8 +54,7 @@ Setting up a bot in Discord takes a bit of time to do but in the end it is defin
 
 ### Testing
 <!-- examples of testing trials. Feel free to use the screenshots i posted in discord. I had to write out several different versions of the prompt. Ask me questions!-->
-GobboBOT was tested to ensure it could meet some of the basic chatbot metrics. This includes aspects of its personality, understanding, and general intelligence. Pulling together a test plan was made incredibly easy thanks to the open source and collaborative chatbottest guide. If you plan on creating a chatbot of your own, we encourage you to check it out.
-https://github.com/chatbottest-com/guide/wiki
+GobboBOT was tested to ensure it could meet some of the basic chatbot metrics. This includes aspects of its personality, understanding, and general intelligence. Pulling together a test plan was made incredibly easy thanks to the open source and collaborative [chattbottest guide](https://github.com/chatbottest-com/guide/wiki). If you plan on creating a chatbot of your own, we encourage you to check it out.
 
 **Test Summary**
 **Repeated Messages**
